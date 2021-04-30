@@ -198,6 +198,7 @@ export default {
         });
       }
       this.offsetImgBeforeFirstIndex();
+      this.touching = false;
       this.start();
     },
 
